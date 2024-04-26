@@ -46,7 +46,7 @@ CREATE TABLE users (
 
 INSERT INTO users (username, email, occupation, interests) VALUES ('JohnDoe', 'johndoe@example.com', 'Software Engineer', 'Programming, Reading');
 
-INSERT INTO user (username, email) VALUES ('JaneSmith', 'janesmith@example.com');
+INSERT INTO users (username, email) VALUES ('JaneSmith', 'janesmith@example.com');
 
 
 
