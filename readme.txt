@@ -36,6 +36,19 @@ docker run -p 8080:8080 inspireai-userprofilingservice-image
 
 
 
+CREATE TABLE users (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    username VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    occupation VARCHAR(255),
+    interests TEXT
+);
+
+INSERT INTO users (username, email, occupation, interests) VALUES ('JohnDoe', 'johndoe@example.com', 'Software Engineer', 'Programming, Reading');
+
+INSERT INTO user (username, email) VALUES ('JaneSmith', 'janesmith@example.com');
+
+
 
 
 
